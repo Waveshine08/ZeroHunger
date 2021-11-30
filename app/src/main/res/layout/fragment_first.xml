@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17000002">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/_40_560" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tienen un alto contenido en fibra, lo que es fundamental para una óptima digestión. Además, reduce el colesterol y promueve el control de la glucosa. Entregan un alto porcentaje de hierro, lo que favorece la síntesis de glóbulos rojos. " />
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FF5722"
+                        android:text="Donar" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/aceite_vegetal_girasol" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="115dp"
+                        android:text="En caso de que a nuestro cuerpo le falte glucosa, los aceites vegetales proporcionan la energía necesaria y aportan 9 calorías por cada gramo de lípido. Las vitaminas A, D, E, y K requieren la presencia de lípidos para ser asimiladas en nuestro organismo." />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FF5722"
+                        android:text="Donar" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="120dp"
+                    android:layout_height="240dp"
+                    android:layout_weight="0"
+                    android:src="@drawable/alimentos_integrales" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Los cereales integrales contienen principalmente fibra, vitaminas del grupo B (Tiamina, Riboflavina, Niacina y Ácido fólico) y minerales (hierro, magnesio y selenio). La fibra dietética de los cereales integrales y otros alimentos, ayudan a reducir los niveles de colesterol y disminuir el riesgo de enfermedades cardiovasculares, obesidad y diabetes tipo 2. Otro beneficio de la fibra es que previene el estreñimiento y el desarrollo de divertículos." />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#FF5722"
+                        android:text="Donar" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="241dp"
+                    android:layout_height="220dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/d_nq_np_689101_mlm43121960981_082020_o" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="189dp"
+                        android:layout_weight="1"
+                        android:text="Equilibrar el nivel de ácidos / bases (pH) de tu cuerpo. Transportar nutrientes al interior de tus células. Eliminar los desechos de tus células. Aseguran que tus nervios, músculos, corazón y cerebro funcionen correctamente." />
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#FF5722"
+                        android:text="Donar" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="120dp"
+                    android:layout_height="240dp"
+                    android:src="@drawable/frutas_verduras_1030x718" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="186dp"
+                        android:text="Su alto contenido de agua facilita la eliminación de toxinas de nuestro organismo y nos ayuda a mantenernos bien hidratados. Su aporte de fibra, ayuda a regular la función de nuestro intestino y a evitar o corregir el estreñimiento. La fibra tiene un gran interés dietético ya que, además, posee efectos benéficos tanto en la prevención como en el tratamiento de ciertas enfermedades. " />
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FF5722"
+                        android:text="Donar" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/istockphoto_459027539_1024x1024" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="152dp"
+                        android:text="Los alimentos enlatados están preparados con recetas tradicionales sin conservadores artificiales y conservan su sabor ya que las latas cuentan con una película de grado alimenticio que evita el contacto con el metal." />
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FF5722"
+                        android:text="Donar" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/lacteos_scaled" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="146dp"
+                        android:text="Ayuda al metabolismo y a producir energía. Mantiene los músculos y tejidos del cuerpo, y contribuye a su crecimiento. Ayuda al cerebro. Mantiene sanos los tejidos y la vista. Ayuda al corazón y al sistema inmunológico." />
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FF5722"
+                        android:text="Donar" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="120dp"
+                    android:layout_height="240dp"
+                    android:src="@drawable/mayoreototal_caja_sopas_knorr_coditos_de_95_grs_con_12_bolsas_unilever_sopas_unilever_sku_400x" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:text="Contribuye a una alimentación variada. La sopa es un alimento muy versátil y equilibrado ya que permite que se puedan combinar distintos ingredientes como pescado, carne, arroz, hierbas aromáticas, ajo, verduras…De hecho, es una preparación en la que podemos incorporar todos los alimentos de la Dieta Mediterránea, que combinados de forma adecuada y en cantidades pequeñas, contribuyen a una dieta equilibrada, variada y saludable." />
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FF5722"
+                        android:text="Donar" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
